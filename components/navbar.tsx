@@ -24,7 +24,7 @@ export default function Navbar() {
     return (
         <div className="fixed top-0 w-full p-5 text-gray-200">
             <div className="flex justify-around items-center w-full">
-                <h1 className="text-3xl">KoFi Roasters</h1>
+                <h1 className="text-3xl font-noto-serif">KoFi Roasters</h1>
                 <ul className="flex items-center gap-14">
                     {navItems.map((item) => (
                         <li key={item.name}>
