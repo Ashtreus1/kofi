@@ -24,7 +24,7 @@ export default function Shop(){
     ]
 
     return(
-        <div className="min-h-screen flex flex-col justify-center items-center w-full">
+        <div id="products" className="min-h-screen flex flex-col justify-center items-center w-full">
             <h2 className="text-2xl font-noto-serif font-semibold text-brown-400">Shop our Products</h2>
             <p className="text-sm mt-3 text-gray-700 w-[500px] text-center">
                 Can{"'"}t make it to our coffee shop. That{"'"}s okay. Let us know

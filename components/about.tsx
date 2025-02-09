@@ -21,7 +21,7 @@ export default function About() {
     ]
 
     return (
-        <div className="relative min-h-screen flex flex-col justify-center items-center w-full">
+        <div id="about" className="relative min-h-screen flex flex-col justify-center items-center w-full">
             <div className="absolute top-[-30px] w-full flex">
                 {some_abouts.map((item) => (
                     <div

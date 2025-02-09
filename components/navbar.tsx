@@ -16,10 +16,6 @@ export default function Navbar() {
             name: "About",
             url: "#about",
         },
-        {
-            name: "Contact",
-            url: "#contact",
-        },
     ]
     return (
         <div className="relative fixed top-0 w-full p-5 text-gray-200">
