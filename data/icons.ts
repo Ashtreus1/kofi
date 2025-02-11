@@ -4,17 +4,11 @@ export const icons = [
     {
         name: "facebook",
         url: Icons.facebook,
+        href: "https://www.facebook.com/kuracafe.ph/"
     },
     {
         name: "instagram",
         url: Icons.instagram,
-    },
-    {
-        name: "twitter",
-        url: Icons.twitter,
-    },
-    {
-        name: "snapchat",
-        url: Icons.snapchat,
+        href: 'https://www.instagram.com/kuracafe.ph/?hl=en'
     },
 ]

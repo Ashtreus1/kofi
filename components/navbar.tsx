@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Navbar() {
     const navItems = [
         {
@@ -20,7 +22,16 @@ export default function Navbar() {
     return (
         <div className="relative fixed top-0 w-full p-5 text-gray-200">
             <div className="flex justify-around items-center w-full">
-                <h1 className="text-3xl font-noto-serif">KoFi Roasters</h1>
+                <div className='flex items-center gap-3'>
+                    <Image
+                        src="/icons/kura-icon.jpg"
+                        width={60}
+                        height={60}
+                        alt="Kura Cafe icons"
+                        className='rounded-full'
+                    />
+                    <h1 className="text-2xl font-noto-serif">Kura Cafe</h1>
+                </div>
                 <ul className="flex items-center gap-14">
                     {navItems.map((item) => (
                         <li key={item.name}>

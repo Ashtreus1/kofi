@@ -4,8 +4,8 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "KoFi Roaster",
-  description: "Wake up and smell the coffee",
+  title: "Kura Cafe",
+  description: "More than just a coffee",
 };
 
 export default function RootLayout({
